@@ -1,0 +1,23 @@
+package TinhTong2So;
+
+public class Pract1 {
+
+	public static void main(String[] args) {
+		//khai báo biến
+		int a =25;
+		int b = 5;
+		double c = 8.5;
+		
+		//math
+		int tong = a + b;
+		double thuong = a / c;
+		int phanDu = a;
+		
+		//in kq
+		System.out.println("Tổng: " + tong);
+		System.out.println("Thương: " + thuong);
+		System.out.println("Phần dư: " + phanDu);
+
+	}
+
+}

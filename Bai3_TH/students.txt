@@ -1,0 +1,18 @@
+=== SINH VIÊN ===
+MSSV: 66133
+Họ tên: Ngae feda
+Điểm Toán: 7.0
+Điểm Lý: 9.0
+Điểm Hóa: 4.5
+Điểm TB: 6.83
+=================
+
+=== SINH VIÊN ===
+MSSV: 66133
+Họ tên: Nha
+Điểm Toán: 7.0
+Điểm Lý: 8.0
+Điểm Hóa: 4.0
+Điểm TB: 6.33
+=================
+

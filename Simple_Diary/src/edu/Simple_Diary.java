@@ -33,7 +33,6 @@ public class Simple_Diary {
           while (fileScanner.hasNextLine()) {
               System.out.println(fileScanner.nextLine());
           }
-          System.out.println("----------------");
           fileScanner.close();
       } catch (IOException e) {
           System.out.println("Lỗi: " + e.getMessage());

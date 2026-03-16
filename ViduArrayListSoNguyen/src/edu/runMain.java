@@ -31,6 +31,25 @@ public class runMain {
 		for (Integer x: dsSoNguyen) {
 			System.out.print(x + " ");
 		}
+		
+		//Câu 3: Đếm số phần tử chẵn
+		int soLuongPTchan = 0;
+		for (Integer x: dsSoNguyen) {
+			if (x % 2 == 0) soLuongPTchan++;
+		}
+		System.out.println("\nSố lượng phần tử chẵn là: " + soLuongPTchan);
+		
+//		//hoặc
+//		for (int i=0; i<dsSoNguyen.size(); i++) {
+//			if (tam % 2 == 0) soLuongPTchan++;
+//		}
+		
+		//Câu d: Tính tổng các phần tử: Thuật toán cộng dồn
+		int TongAll = 0;
+		for (Integer x: dsSoNguyen) {
+			TongAll += x;
+		}
+		System.out.println("Tổng tất cả các phần tử là: " + TongAll);
 	}
 
 }

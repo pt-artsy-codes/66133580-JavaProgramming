@@ -47,7 +47,7 @@ public class runMain {
 		//Câu d: Tính tổng các phần tử: Thuật toán cộng dồn
 		int TongAll = 0;
 		for (Integer x: dsSoNguyen) {
-			TongAll += x;
+			TongAll += x; feff
 		}
 		System.out.println("Tổng tất cả các phần tử là: " + TongAll);
 	}

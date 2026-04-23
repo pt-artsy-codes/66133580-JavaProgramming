@@ -1,0 +1,2 @@
+module ThiGK_QuanLySanPham {
+}

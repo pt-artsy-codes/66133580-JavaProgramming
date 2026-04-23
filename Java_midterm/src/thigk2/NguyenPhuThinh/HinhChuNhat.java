@@ -11,8 +11,14 @@ public class HinhChuNhat {
 		
 	}
 	
-	public HinhChuNhat(double x1, double y1, double x2, double y2)
-	
+	public HinhChuNhat(double x1, double y1, double x2, double y2) {
+		super();
+		this.x1 = 5;
+		this.y1 = 4;
+		this.x2 = 8;
+		this.y2 = 6;
+	}
+
 	//hàm getter và setter
 	public double getX1() {
 		return x1;
@@ -39,7 +45,13 @@ public class HinhChuNhat {
 		this.y2 = y2;
 	}
 	
-	public double getDienTich(double x1, double y1) {
-		
+	// Chu vi hình chữ nhât
+	public double getChuVi(double x1, double y1, double x2, double y2) {
+		return 2 * (Math.abs(x2 - x1) + Math.abs(y2 - y1) );
+	}
+	
+	// Diện tích hình chữ nhât
+	public double getDienTich(double x1, double y1, double x2, double y2) {
+		return Math.abs(x2 - x1) * Math.abs(y2 - y1);
 	}
 }

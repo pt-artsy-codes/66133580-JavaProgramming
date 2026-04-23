@@ -14,22 +14,22 @@ public class runMain {
 		sp1.setTenSP("Sữa");
 		sp1.setLoaiSP("Nước uống");
 		sp1.setGiaSP(15000);
+		DsSP.add(sp1);
 		
 		SanPham sp2 = new SanPham();
 		sp2.setMaSP(2);
 		sp2.setTenSP("Pepsi");
 		sp2.setLoaiSP("Nước uống");
 		sp2.setGiaSP(12000);
+		DsSP.add(sp2);
 		
 		SanPham sp3 = new SanPham();
 		sp3.setMaSP(3);
 		sp3.setTenSP("Sourdough");
 		sp3.setLoaiSP("Bánh");
 		sp3.setGiaSP(52000);
+		DsSP.add(sp3);
 		
-
-		
-
 		SanPham sp4 = new SanPham();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Nhập mã sản phẩm");
@@ -43,7 +43,7 @@ public class runMain {
 		
 		DsSP.add(sp4);
 		
-		for(int i = 0; i < DsSP.size(); i++) {
+		for (int i = 0; i < DsSP.size(); i++) {
 			
 			System.out.println("Sản phẩm thứ " + i + ": ");
 			System.out.println("\nMã sản phẩm: " + DsSP.get(i).getMaSP());
@@ -51,7 +51,6 @@ public class runMain {
 			System.out.println("\nLoại sản phẩm: " + DsSP.get(i).getLoaiSP());
 			System.out.println("\nGiá sản phẩm: " + DsSP.get(i).getGiaSP());
 		}
-
 	}
 
 }

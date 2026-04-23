@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class runMain {
 
 	public static void main(String[] args) {
-		
+		ArrayList<SanPham> DsSP = new ArrayList<SanPham>();
 
 		
 		SanPham sp1 = new SanPham();
@@ -27,9 +27,9 @@ public class runMain {
 		sp3.setLoaiSP("Bánh");
 		sp3.setGiaSP(52000);
 		
-		ArrayList<SanPham> DsSP = new ArrayList<SanPham>();
+
 		
-		
+
 		SanPham sp4 = new SanPham();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Nhập mã sản phẩm");
@@ -41,9 +41,15 @@ public class runMain {
 		System.out.println("Nhập giá sản phẩm: ");
 		sp4.setGiaSP(sc.nextInt());
 		
+		DsSP.add(sp4);
 		
-		
-		
+		for(int i = 0; i < DsSP.size(); i++) {
+			
+			System.out.println("Sản phẩm thứ " + i + ": ");
+			System.out.println("\nMã sản phẩm: " + DsSP.get(i).getMaSP());
+			System.out.println("\nTên sản phẩm: " + DsSP.get(i).getTenSP());
+			System.out.println("\nLoại sản phẩm: " + DsSP.get(i).getLoaiSP());
+			System.out.println("\nGiá sản phẩm: " + DsSP.get(i).getGiaSP());
 		}
 
 	}
